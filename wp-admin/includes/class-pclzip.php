@@ -1154,7 +1154,7 @@
   // --------------------------------------------------------------------------------
   // Function : duplicate()
   // Description :
-  //   This method creates an archive by copying the content of an other one. If
+  //   This method creates an archive by copying the content of another one. If
   //   the archive already exist, it is replaced by the new one without any warning.
   // Parameters :
   //   $p_archive : The filename of a valid archive, or
@@ -1355,7 +1355,7 @@
 // --------------------------------------------------------------------------------
 // ***** UNDER THIS LINE ARE DEFINED PRIVATE INTERNAL FUNCTIONS *****
 // *****                                                        *****
-// *****       THESES FUNCTIONS MUST NOT BE USED DIRECTLY       *****
+// *****       THESE FUNCTIONS MUST NOT BE USED DIRECTLY        *****
 // --------------------------------------------------------------------------------
 
 
@@ -5471,7 +5471,7 @@
   // Function : PclZipUtilPathInclusion()
   // Description :
   //   This function indicates if the path $p_path is under the $p_dir tree. Or,
-  //   said in an other way, if the file or sub-dir $p_path is inside the dir
+  //   said in another way, if the file or sub-dir $p_path is inside the dir
   //   $p_dir.
   //   The function indicates also if the path is exactly the same as the dir.
   //   This function supports path with duplicated '/' like '//', but does not

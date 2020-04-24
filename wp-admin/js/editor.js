@@ -371,7 +371,7 @@ window.wp = window.wp || {};
 		 * Using DomQuery syntax to create it, since it's used as both text and as a DOM element.
 		 *
 		 * @param {Object} domLib DOM library instance.
-		 * @param {string} content The content to insert into the cusror marker element.
+		 * @param {string} content The content to insert into the cursor marker element.
 		 */
 		function getCursorMarkerSpan( domLib, content ) {
 			return domLib( '<span>' ).css( {
@@ -561,7 +561,7 @@ window.wp = window.wp || {};
 		 * By default TinyMCE wraps loose inline tags in a `<p>`.
 		 * When removing selection markers an empty `<p>` may be left behind, remove it.
 		 *
-		 * @param {object} $marker The marker to be removed from the editor DOM, wrapped in an instnce of `editor.$`
+		 * @param {object} $marker The marker to be removed from the editor DOM, wrapped in an instance of `editor.$`
 		 */
 		function removeSelectionMarker( $marker ) {
 			var $markerParent = $marker.parent();
@@ -971,7 +971,7 @@ window.wp = window.wp || {};
 			// Unmark special paragraph closing tags.
 			html = html.replace( /<\/p#>/g, '</p>\n' );
 
-			// Pad remaining <p> tags whit a line break.
+			// Pad remaining <p> tags with a line break.
 			html = html.replace( /\s*(<p [^>]+>[\s\S]*?<\/p>)/g, '\n$1' );
 
 			// Trim.

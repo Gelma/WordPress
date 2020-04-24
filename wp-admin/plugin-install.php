@@ -146,7 +146,7 @@ if ( ! empty( $tabs['upload'] ) && current_user_can( 'upload_plugins' ) ) {
 <?php
 /*
  * Output the upload plugin form on every non-upload plugin installation screen, so it can be
- * displayed via JavaScript rather then opening up the devoted upload plugin page.
+ * displayed via JavaScript rather than opening up the devoted upload plugin page.
  */
 if ( 'upload' !== $tab ) {
 	?>

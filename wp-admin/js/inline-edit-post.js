@@ -496,7 +496,7 @@ window.wp = window.wp || {};
 	},
 
 	/**
-	 * Gets the id for a the post that you want to quick edit from the row in the quick
+	 * Gets the id for the post that you want to quick edit from the row in the quick
 	 * edit table.
 	 *
 	 * @since 2.7.0

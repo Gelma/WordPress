@@ -389,7 +389,7 @@
 		},
 
 		/**
-		 * Adds keyboard accessiblity to the panel.
+		 * Adds keyboard accessibility to the panel.
 		 */
 		keyboardAccessible: function( event ) {
 			var isEnter = ( event.which === 13 ),
